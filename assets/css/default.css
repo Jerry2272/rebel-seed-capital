@@ -73,7 +73,7 @@ p {
 /* hero_navbar_style */
 .hero-section {
   background: linear-gradient(var(--background-color-opacity-home), var(--background-color-opacity-home)),
-    url("/assets/image/hero_bg.png");
+    url("..//image/hero_bg.png");
   background-position: center;
   background-size: cover;
   height: 120vh;
@@ -332,7 +332,7 @@ button:hover span .fa-arrow-left {
 
 /* ready to invest */
 .ready_to {
-  background: linear-gradient(var(--background_navy_blue_opacity), var(--background_navy_blue_opacity)), url("..//image/hero_bg.png");
+  background: linear-gradient(var(--background_navy_blue_opacity), var(--background_navy_blue_opacity)), url("../image/ready_to_invest_bg.png");
   height: 648px;
   padding-top: 10em;
 }

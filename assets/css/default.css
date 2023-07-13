@@ -123,7 +123,7 @@ button:hover span .fa-arrow-left {
   color: var(--text_color_white);
   font-size: var(--text_font_size_);
   line-height: 21.35px;
-  font-family: var(--font_family_text_derailed);
+  /* font-family: var(--font_family_text_derailed); */
   border-bottom: 0.540px solid var(--text_color_white);
   width: 300px;
   position: relative;
@@ -141,7 +141,7 @@ button:hover span .fa-arrow-left {
 }
 /* hero section */
 .hero-section h1 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 52px;
 }
 
@@ -664,7 +664,7 @@ footer input {
   padding-top: 9%;
 }
 .invest_btn{
-  margin-top: 7em;
+  margin-top: 5em;
 }
 
 }

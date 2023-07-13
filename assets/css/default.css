@@ -402,7 +402,7 @@ footer input {
 /* .hero-section for blog */
 #hero-section{
   position: relative;
-  background: linear-gradient( rgba(10, 30, 54, 1), rgba(10, 30, 54, 0.55)), url("../image/b_first.png");
+  background: linear-gradient( rgba(10, 30, 54, 1), rgba(10, 30, 54, 0.55)), url("../image/b_last.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

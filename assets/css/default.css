@@ -434,12 +434,15 @@ footer input {
 
 
 
-@media (min-width: 1200px){
-  .hero-section{
-    padding-top: 25%;
-  }
+@media (min-width: 1400px) {
+  .hero-section h1{
+    padding-top: 19%;
+  
 }
-
+.btn_container{
+  margin-top: 9%;
+}
+}
 
 @media (min-width: 992px) {
   h1 {
@@ -486,13 +489,16 @@ footer input {
   .hero-section {
     /* height: var(--height_hero); */
     padding-left: 5em;
-    padding-top:20%;
+    padding-top: 6em;
     padding-bottom: auto;
+  }
+  .hero-section .text{
+    font-weight: 500;
   }
 
   .hero-section h1 {
     font-size: var(--hero_font_size);
-    line-height: 120px;
+    line-height: 100px;
     padding-top: auto;
     padding-bottom: auto ;
     margin-top: auto;
@@ -531,7 +537,7 @@ footer input {
   }
 
   .hero-section {
-    padding-top: 10em;
+    padding-top: auto ;
   }
 
   /* dialy Innovation */

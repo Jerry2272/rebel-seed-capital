@@ -14,6 +14,17 @@ window.addEventListener("scroll", () =>{
     }
     lastScroll=scrollY
 });
+// const navbar=document.getElementsByClassName("navbar-toggler");
+// let Zastscroll=window.scrollY;
+
+// window.addEventListener("scroll", () =>{
+//     if(Zastscrollscroll < window.scrollY){
+//         navbar.classList.add("icon_bars");
+//     }else{
+//         navbar.classList.remove("icon_bars");
+//     }
+//     Zastscroll=scrollY
+// });
 
 
 $('.owl-carousel').owlCarousel({

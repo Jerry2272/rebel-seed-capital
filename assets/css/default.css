@@ -139,7 +139,6 @@ button:hover span .fa-arrow-left {
 .navbar-hide{
   display: none;
 }
-
 /* hero section */
 .hero-section h1 {
   font-weight: 900;
@@ -177,6 +176,10 @@ button:hover span .fa-arrow-left {
 .team img{
   border-radius: 8px;
 }
+.owl-theme .owl-dots .owl-dot span {
+  display: none;
+}
+
 
 /* where we invest */
 .where_we_invest h6 {
@@ -398,24 +401,25 @@ footer input {
 /* .hero-section for blog */
 #hero-section{
   position: relative;
-  background: rgba(10, 30, 54, 1);
+  background: linear-gradient( rgba(10, 30, 54, 1), rgba(10, 30, 54, 0.55)), url("../image/b_first.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-#hero-section .first, .last{
-  position: relative;
-}
-
-#recent_news img{
+.recent_news img{
   height: 280px;
   border-radius: 8px;
   position: relative;
   object-fit:cover;
 }
-#recent_news a{
+.recent_news a{
   color: rgba(4, 156, 126, 1);
   font-weight: 700;
   font-size: 18px;
 }
-
+.overlay_section{
+  background-color: #fff;
+}
 .overlay_section span small, a{
   color: rgba(4, 156, 126, 1);
   font-size: 18px;
@@ -435,6 +439,9 @@ footer input {
 
 
 @media (min-width: 1400px) {
+  #hero-section{
+    padding-top: 17%;
+  }
   .hero-section h1{
     padding-top: 17%;
     padding-bottom: 8%;
@@ -442,6 +449,10 @@ footer input {
 .btn_container{
   padding-top: 9%;
 }
+.invest_btn{
+  margin-top: 7em;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -531,6 +542,9 @@ footer input {
     top: 12em;
     right: -10px;
   }
+  #hero-section{
+    padding-top: 10%;
+  }
 
   .hero-section {
     position: relative;
@@ -564,6 +578,9 @@ footer input {
     font-weight: var(--font_weight_htag);
     font-size: 35px;
     line-height: 46px;
+  }
+  .invest_btn{
+    margin-top: 5em;
   }
 
   .fund_item {
@@ -645,13 +662,10 @@ footer input {
 
 .overlay_section{
   background-color: #fff;
-  width: 538px;
+  width: 100%;
   padding: 20px 40px 20px 40px;
   border-radius: 8px;
-  opacity: 85%;
-  position: absolute;
-  top: 13em;
-  left: 16em;
+  /* opacity: 85%; */
 }
 
 /* blog section end....... */
@@ -668,6 +682,10 @@ footer input {
 
 
 @media (max-width: 568px) {
+  .hero-section{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .hero-section h1 {
     font-weight: 900;
     font-size: 52px;
@@ -714,14 +732,17 @@ footer input {
   .first img{
     display: none;
   }
-  .overlay_section{
-    background-color: #fff;
-    max-width: 350px;
-    margin-top: 3em;
+  .where{
+    padding: 30px;
+  }
+  .what_investors_believe{
     padding: 20px;
-    border-radius: 8px;
-    opacity: 85%;
-    position: absolute;
+  }
+  #hero-section{
+    background-attachment: fixed;
+  }
+  .overlay_section{
+    padding: 20px;
   }
 }
 

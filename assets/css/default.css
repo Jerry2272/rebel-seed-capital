@@ -434,7 +434,11 @@ footer input {
 
 
 
-
+@media (min-width: 1290px){
+  .hero-section{
+    padding-top: 8em;
+  }
+}
 
 
 @media (min-width: 992px) {
@@ -482,13 +486,13 @@ footer input {
   .hero-section {
     /* height: var(--height_hero); */
     padding-left: 5em;
-    padding-top: auto;
+    padding-top:auto;
     padding-bottom: auto;
   }
 
   .hero-section h1 {
     font-size: var(--hero_font_size);
-    line-height: 90px;
+    line-height: 120px;
     padding-top: auto;
     padding-bottom: auto ;
     margin-top: auto;

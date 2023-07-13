@@ -164,6 +164,7 @@ button:hover span .fa-arrow-left {
   border: none;
 }
 
+
 .team button i {
   font-size: 18px;
   color: rgba(4, 156, 126, 1);
@@ -172,6 +173,9 @@ button:hover span .fa-arrow-left {
 
 .team .item {
   padding-top: 20px;
+}
+.team img{
+  border-radius: 8px;
 }
 
 /* where we invest */
@@ -298,7 +302,21 @@ button:hover span .fa-arrow-left {
 .look_to_invest {
   padding-top: 4em;
 }
-
+.nav-pills .nav-link{
+  color: var(--primary_green);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background: var(--primary_green);
+  transition: all 0.50 ease-in;
+}
+.nav-pills .nav-link{
+border: 2px solid var(--primary_green);
+}
+.nav-pills{
+  display: flex;
+  gap: 20px;
+  margin-left: 6em;
+}
 
 /* In the news */
 .news img {
@@ -363,6 +381,7 @@ footer ul {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  align-self: center ;
 }
 
 footer ul a {
@@ -462,12 +481,18 @@ footer input {
   /* .hero-section-navbar-hero-section */
   .hero-section {
     /* height: var(--height_hero); */
-    padding-left: 8em;
+    padding-left: 5em;
+    padding-top: auto;
+    padding-bottom: auto;
   }
 
   .hero-section h1 {
     font-size: var(--hero_font_size);
-    line-height: 98.4px;
+    line-height: 90px;
+    padding-top: auto;
+    padding-bottom: auto ;
+    margin-top: auto;
+    margin-bottom: auto;
     /* padding-left: 2em; */
   }
 
@@ -539,6 +564,11 @@ footer input {
     width: 100px;
     height: 100px;
     padding-top: 10px;
+  }
+
+  /* team section  */
+ .team  .owl-carousel .item{
+  margin-left: 30px;
   }
 
   /* what_investors_believe */
@@ -639,7 +669,8 @@ footer input {
 
   .hero-section {
     text-align: center;
-    padding-top: 10em;
+    padding-top: 7em;
+    margin-top: auto;
   }
 
   .fund-btn {
@@ -698,7 +729,7 @@ footer input {
 
   .hero-section {
     text-align: center;
-    padding-top: 10em;
+    padding-top: 7em;
   }
 
   .fund-btn {

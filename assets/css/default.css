@@ -678,12 +678,11 @@ footer input {
 
 @media (max-width: 568px) {
   .hero-section{
-    padding-left: 10px;
-    padding-right: 10px;
+   padding: 20px;
   }
   .hero-section h1 {
     font-weight: 900;
-    font-size: 52px;
+    font-size: 48px;
   }
 
   .navbar-brand {

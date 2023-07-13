@@ -436,8 +436,8 @@ footer input {
 
 @media (min-width: 1400px) {
   .hero-section h1{
-    padding-top: 19%;
-  
+    padding-top: 28%;
+    margin-bottom: 8%;
 }
 .btn_container{
   margin-top: 9%;

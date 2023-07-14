@@ -2,6 +2,14 @@
 changeIcon = (icons) => icons.classList.toggle('fa-times');
 
 
+let jerry =document.getElementById("toggle");
+function borderChange(){
+    jerry.classList.toggle("nav-border");
+}
+
+
+
+
 
 const header=document.querySelector(".navbar");
 let lastScroll=window.scrollY;
@@ -14,6 +22,9 @@ window.addEventListener("scroll", () =>{
     }
     lastScroll=scrollY
 });
+
+
+
 // const navbar=document.getElementsByClassName("navbar-toggler");
 // let Zastscroll=window.scrollY;
 

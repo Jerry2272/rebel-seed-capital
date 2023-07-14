@@ -136,8 +136,18 @@ button:hover span .fa-arrow-left {
 .navbar-light .navbar-toggler {
   border: 2px solid #fff;
 }
+.nav-border{
+ background-color: var(--primary_green);
+}
 .navbar-hide{
   display: none;
+}
+.fa-times{
+  color: #fff;
+  transition: all 0.36s ease;
+}
+.fa-times:hover{
+  scale: 1.4;
 }
 /* hero section */
 .hero-section h1 {
@@ -178,9 +188,27 @@ button:hover span .fa-arrow-left {
 }
 .owl-theme .owl-dots .owl-dot span {
   display: none;
-  width: 0;
+  width: 0px;
+  opacity: 0;
 }
-
+/* .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot */
+/* .button.owl-next{
+  position: relative;
+}
+.owl-carousel .owl-nav button.owl-next{
+  position: relative;
+  bottom: 10%;
+}
+.owl-carousel .owl-nav button.owl-next::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    offset: 0;
+} */
+/* .owl-carousel .owl-nav button.owl-next */
 
 /* where we invest */
 .where_we_invest h6 {
@@ -406,6 +434,12 @@ footer input {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+
+/* news section  */
+.recent_news .card{
+  border: none;
 }
 .recent_news img{
   height: 280px;
@@ -717,8 +751,47 @@ footer input {
     margin-right: auto;
     line-height: 50px;
   }
+  .ow-button{
+    text-align: end;
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+  }
+  .owl-carousel .owl-nav{
+    position: absolute;
+    top: -8%;
+    right: 0;
+    display: flex;
+    gap: 40px;
+  }
+  .owl-carousel .owl-nav button.owl-next{
+    width: 50px;
+    background-color:transparent;
+    color: transparent !important;
 
+  }
+  .owl-carousel .owl-nav button.owl-prev{
+    width: 50px;
+    background-color:transparent;
+    color: #fff;
+    position: relative;
+    left: 40%;
+    color: transparent !important;
+  }
+/*   
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+  color: #fff;
+} */
 
+  .owl-carousel .owl-nav button.owl-next:hover{
+    background-color: transparent;
+  }
+  .owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: transparent;
+  }
+  /* .owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: #fff;
+  } */
 
 
 
@@ -737,6 +810,10 @@ footer input {
   }
   .overlay_section{
     padding: 20px;
+    margin-top: 3em;
+  }
+  .recent_news .button{
+    text-align: center;
   }
 }
 

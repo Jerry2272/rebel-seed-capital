@@ -2,7 +2,7 @@
 changeIcon = (icons) => icons.classList.toggle('fa-times');
 
 
-let jerry =document.getElementById("toggle");
+let jerry = document.getElementById("toggle");
 function borderChange(){
     jerry.classList.toggle("nav-border");
 }
@@ -23,6 +23,28 @@ window.addEventListener("scroll", () =>{
     lastScroll=scrollY
 });
 
+
+
+window.addEventListener("scroll", () => {
+    const banner = document.getElementById("banner");
+    if(window.scrollY > 50) {
+        banner.classList.add("banner-top-active");
+    }else{
+        banner.classList.remove("banner-top-active");
+    }
+});
+
+
+
+
+window.addEventListener("scroll", () => {
+    const menuBar = document.getElementById("menu-bar");
+    if(window.scrollY > 50) {
+        menuBar.classList.add("bar-menu");
+    }else{
+        menuBar.classList.remove("bar-menu");
+    }
+});
 
 
 

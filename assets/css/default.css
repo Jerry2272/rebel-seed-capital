@@ -146,9 +146,9 @@ button:hover span .fa-arrow-left {
   color: #fff;
   transition: all 0.36s ease;
 }
-.fa-times:hover{
+/* .fa-times:hover{
   scale: 1.4;
-}
+} */
 /* hero section */
 .hero-section h1 {
   font-weight: 700;

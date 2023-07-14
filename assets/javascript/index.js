@@ -25,6 +25,10 @@ window.addEventListener("scroll", () =>{
 
 
 
+
+
+
+
 // const navbar=document.getElementsByClassName("navbar-toggler");
 // let Zastscroll=window.scrollY;
 
